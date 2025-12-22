@@ -19,6 +19,10 @@ def main():
     frames_dir = Path(args.frames)
     out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # RESET del file di output (evita che cresca a ogni run)
+    if out_path.exists():
+        out_path.unlink()
 
     vis_dir = out_path.parent / "vis"
     if args.save_vis > 0:
