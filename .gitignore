@@ -3,7 +3,11 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .vscode/
+.idea/
 data/
 outputs/
 runs/
 logs/
+.DS_Store
+Thumbs.db
+configs/local_paths.json

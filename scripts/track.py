@@ -23,7 +23,7 @@ def main():
     ap.add_argument("--video-id", type=int, default=1)
     ap.add_argument("--team-id", type=int, default=1)
 
-    ap.add_argument("--weights", default="yolo11x.pt")
+    ap.add_argument("--weights", default="yolo8m.pt")
     ap.add_argument("--tracker", default="botsort.yaml")  # o bytetrack.yaml
     ap.add_argument("--conf", type=float, default=0.2)
     ap.add_argument("--imgsz", type=int, default=1280)
