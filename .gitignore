@@ -11,3 +11,5 @@ logs/
 .DS_Store
 Thumbs.db
 configs/local_paths.json
+*.pt
+*.onnx
